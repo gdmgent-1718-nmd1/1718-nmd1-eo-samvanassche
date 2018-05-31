@@ -1,14 +1,107 @@
 <!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Digital Styleguide - Eindopdracht NMD-I</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/pages.css">
-</head>
-<body>
-    <h1>Digital Styleguide</h1>
-</body>
+<html>
+    <head>
+        <title>Styleguide</title>
+        <meta charset:"UTF-}8">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+    <h1>HUISSTIJL</h1>
+        <h2>LOGO</h2>
+           <p>Het logo is 56% zwart en heeft een transparante achtergrond.
+               <br> er bestaat ook een volledig zwarte versie van het logo.
+                <br> In het logo staat de naam van het festival.</p>
+            <img src="images/logo.png" class="logo" alt="Logo Music at the Beach" title="Music at the Beach"/> 
+            <img src="images/Logo zwart.png" class="logo" alt="Logo Music at the Beach" title="Music at the Beach"/>             
+        
+        <h2>KLEUREN</h2>
+        <div class="container">
+                <div class="color1"></div>
+                <div class="text">
+                  <p>Green</p>
+                  <p><em>RGB</em> rgb(84,217,137)</p>
+                  <p><em>HEX</em>	#54D989</p>
+                </div>
+              </div>
+        
+         <div class="container">
+                <div class="color2"></div>
+                <div class="text">
+                    <p>Grey</p>
+                    <p><em>RGB</em> rgb(112,112,112)</p>
+                    <p><em>HEX</em>	#707070</p>
+                </div>
+                </div>
+        
+        <div class="container">
+                <div class="color3"></div>
+                <div class="text">
+                    <p>White</p>
+                    <p><em>RGB</em> rgb(255,255,255)</p>
+                    <p><em>HEX</em>	#FFFFFF</p>
+                </div>
+                </div>
+
+        <div class="container">
+                <div class="color4"></div>
+                <div class="text">
+                    <p>Black</p>
+                    <p><em>RGB</em> rgb(0,0,0)</p>
+                    <p><em>HEX</em>	#000000</p>
+                </div>
+                </div>
+
+        <h2>TYPOGRAFIE</h2>
+                <p> Op de website wordt er gebruik gemaakt van twee lettertypes, Oswald Regular en Open Sans. </p>
+                <span class="lettertype1"> TITEL</span> <span class="tekst">Oswald Regular | 40pt | #707070</span>
+                <br>
+                <span class="lettertype2"> TITEL IN MENU</span> <span class="tekst">Oswald Regular | 30pt | #707070</span>
+                <br>
+                <span class="lettertype3"> ONDERTITEL</span> <span class="tekst">Oswald Regular | 20pt | #707070</span>
+                <br>
+                <span class="lettertype4"> Tekst</span> <span class="tekst">Open Sans | 15pt | #000000</span>
+
+        <h2>BEELDMATERIAAL</h2>
+            <h3>Programma</h3>
+                <div class="programma">
+                    <a target="_blank" href="images/lineup7.jpg">
+                    <img src="images/lineup7.jpg" alt="The 1975" width="300" height="200">
+                    </a>
+                    <div class="desc">The 1975 <br> 20u30 - 21u30</div>
+                </div>
+
+            <h3>Achtergrond</h3>
+            <img src="images/achtergrond.jpg" class="achtergrond" alt="Foto Achtergrond" title="Foto Achtergrond"/>
+
+        
+        <h2>FUNCTIONELE ELEMENTEN</h2>
+            <h3>Knoppen</h3>
+                <button type="button" class="button1">-</button>
+                <button type="button" class="button2">+</button>
+                <button type="button" class="button3">
+                    <img src="https://use.fontawesome.com/releases/v5.0.13/svgs/solid/arrow-left.svg" 
+                    style="width: 1%"></button>
+                <button type="button" class="button4">Next</button>
+
+
+            <h3>Formulieren</h3>
+                    <div class="formulier">
+                        <label for="name" class="title"> Voornaam:</label>
+                        <input type="text" id="name" name="Voornaam"/>
+                    </div>
+                    <div class="formulier">
+                            <label for="name" class="title"> Achternaam:</label>
+                            <input type="text" id="name" name="Achternaam"/>
+                    </div>
+                    <div class="radio-buttons">
+                        <label class="title"> Geslacht:</label>
+                        <input type="radio" name="Geslacht" id="man" value="Man"/>
+                        <label for="man">Man </label>
+                        <input type="radio" name="Geslacht" id="vrouw" value="Vrouw"/>
+                        <label for="vrouw">Vrouw</label>
+                    </div>
+                  
+            
+    </body>
 </html>

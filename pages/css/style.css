@@ -1,0 +1,243 @@
+html {
+    background-color:#FCFCFC
+}
+
+body {margin-left:40px;}
+
+
+@font-face { font-family: Oswald;
+    src: url('https://www.fontsquirrel.com/fonts/oswald')}
+
+h1 {color: #707070;
+    font-family: 'Oswald';
+    font-size: 40pt;
+}
+
+h2 {color:#707070;
+    font-family: 'Oswald';
+    font-size: 20pt;
+}
+
+h3 {color: #707070;
+    font-family: 'Oswald';
+    font-size: 15pt;
+    margin-left: 20px;
+}
+
+p {font-family: "Open Sans"}
+
+img.logo {width: 20%;
+  margin: 10px;  margin-left: 0px;    
+}
+
+.container {
+    position: relative;
+    width: 25rem;
+    min-width:25rem;
+    height: 10rem;
+    min-height: 10rem;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  
+  .color1 {
+    float: left;
+    display: block;
+    background-color:#54D989;
+    height: 100%;
+    width: 40%;
+  }
+  
+  .color2 {
+    float: left;
+    display: block;
+    background-color:#707070;
+    height: 100%;
+    width: 40%;
+  }
+
+  .color3 {
+    float: left;
+    display: block;
+    background-color: #FCFCFC;
+    height: 100%;
+    width: 40%;
+    border: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+  }
+
+  .color4 {
+    float: left;
+    display: block;
+    background-color:black;
+    height: 100%;
+    width: 40%;
+  }
+
+  .text {
+    display: block;
+    height: 100%;
+    background-color: #eeeeee;
+  }
+  
+ 
+  div.text p:first-of-type {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+  
+  div.color p {
+    text-align: center;
+    font-size: 8rem;
+    margin: 0;
+    color: white;
+  }
+  
+  div.text p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-family: 'open sans', sans-serif;
+    color: grey;
+  }
+  
+  em {
+    color: black;
+    padding-right: 2rem;
+  }
+
+  .lettertype1 {font-family:"Oswald"; font-size: 40pt; color: #707070; margin-left: 20px; margin-top:-5px; margin-bottom:-2px}
+
+  .lettertype2 {font-family: "Oswald"; font-size: 30pt; color: #707070; margin-left: 20px; margin-top:-5px; margin-bottom:-5px}
+
+  .lettertype3 {font-family: "Oswald"; font-size: 20pt; color: #707070; margin-left: 20px;margin-top:-7px; margin-bottom:-7px}
+
+  .lettertype4 {font-family: "Open Sans"; font-size: 15pt; color: black; margin-left: 20px;margin-top:5px; margin-bottom:-10px}
+
+  .tekst {font-family:"Open Sans"}
+
+  img.ontwerp {width: 300px;
+  margin: 10px; margin-left: 0px }
+
+  img.homepage {width: 30%; margin: 10px; margin-left: 20px;}
+
+  div.programma {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: none;
+    width: 180px;
+    margin-left: 20px;
+}
+
+div.programma:hover {
+    border: 1px solid #777;
+}
+
+div.programma img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+  img.achtergrond {width: 30%; margin-left: 20px;}
+
+
+.button1 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #54D989;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #FCFCFC;
+  color: #54D989;
+  font-size: 15pt;
+  cursor: pointer;
+}
+
+.button2 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #54D989;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #FCFCFC;
+  color: #54D989;
+  font-size: 15pt;
+  cursor: pointer;
+}
+
+.button3 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #54D989;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background: url(https://use.fontawesome.com/releases/v5.0.13/svgs/solid/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  color: #54D989;
+  font-size: 15pt;
+  cursor: pointer;
+  float: none;
+  display: block;
+}
+
+.button4 {
+  background-color: #54D989;
+  color: black;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-family: "Open Sans";
+  cursor: pointer;
+  float: none;
+  margin-left: 20px;
+}
+
+.title {
+text-align: right; 
+float: left; 
+font-family: "Open Sans"; 
+padding-right: 10px;
+width: 100px;
+}
+
+.formulier {
+margin: 10px;
+margin-left: 20px;
+padding-bottom: 10px;
+width: 260px;
+
+}
+
+.radio-buttons {
+font-family: "Open Sans";
+}
+
+
+
+
+
