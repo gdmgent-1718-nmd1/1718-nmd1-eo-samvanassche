@@ -14,9 +14,6 @@ body {
 
 }
 
-img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
-}
 
 /* Voeg jouw css hieraan toe */
 html {
@@ -28,6 +25,8 @@ body {margin-left:40px;}
 
 @font-face { font-family: Oswald;
     src: url('https://www.fontsquirrel.com/fonts/oswald')}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 h1 {color: #707070;
     font-family: 'Oswald';
