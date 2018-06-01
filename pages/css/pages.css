@@ -15,15 +15,15 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
-
 html {
   background-color:#FCFCFC
 }
 
-body {margin-left:40px;}
+body {margin-left:40px;
+margin-right:100px;}
 
 
-@font-face { font-family: 'Oswald';
+@font-face { font-family: Oswald;
   src: url('https://www.fontsquirrel.com/fonts/oswald')}
 
 h1 {color: #707070;
@@ -44,7 +44,7 @@ h3 {color: #707070;
 
 p {font-family: "Open Sans"}
 
-img.logo {width: 30%;
+img.logo {width: 20%;
 margin: 10px;  margin-left: 0px;    
 }
 
@@ -133,13 +133,13 @@ em {
   padding-right: 2rem;
 }
 
-.lettertype1 {font-family:"Oswald"; font-size: 40pt; color: #707070; margin-left: 20px; margin-bottom: 20px;}
+.lettertype1 {font-family:"Oswald"; font-size: 40pt; color: #707070; margin-left: 20px; margin-top:10px; padding-bottom:10px}
 
-.lettertype2 {font-family: "Oswald"; font-size: 30pt; color: #707070; margin-left: 20px; margin-bottom: 20px;}
+.lettertype2 {font-family: "Oswald"; font-size: 30pt; color: #707070; margin-left: 20px; margin-top:10px; padding-bottom:10px}
 
-.lettertype3 {font-family: "Oswald"; font-size: 20pt; color: #707070; margin-left: 20px;}
+.lettertype3 {font-family: "Oswald"; font-size: 20pt; color: #707070; margin-left: 20px;margin-top:10px; padding-bottom:10px}
 
-.lettertype4 {font-family: "Open Sans"; font-size: 15pt; color: black; margin-left: 20px;}
+.lettertype4 {font-family: "Open Sans"; font-size: 15pt; color: black; margin-left: 20px;margin-top:10px; padding-bottom:10px}
 
 .tekst {font-family:"Open Sans"}
 
@@ -254,3 +254,5 @@ width: 260px;
 .radio-buttons {
 font-family: "Open Sans";
 }
+
+
